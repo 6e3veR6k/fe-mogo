@@ -1,0 +1,93 @@
+:root {
+  --ff-main: 'Proxima Nova Rg', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ff-main-bold: 'Proxima Nova B', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ff-main-text-color: #999999;
+  --ff-main-title-color: #333333;
+  --ff-accent-text-color: #ffffff;
+  --ff-accent-title-color: #fce38a;
+}
+
+
+body {
+  font-family: var(--ff-main);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: var(--ff-main-text-color);
+}
+
+.hero {
+  background-color: #212121;
+  color: var(--ff-accent-text-color);
+}
+
+
+.container {
+  min-width: 32rem;
+}
+
+.logo-link {
+  display: block;
+  text-decoration: none;
+  font-family: var(--ff-main-bold);
+  color: var(--ff-accent-text-color);
+  font-size: 3rem;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ff-accent-text-color);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--ff-accent-title-color);
+}
+
+.trash-link {
+  background-color: #fff;
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.search-btn {
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  outline: none;
+  border: none;
+  /* background-color: transparent; */
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.hero-desc {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: var(--ff-main-bold);
+  font-size: 5rem;
+  line-height: 4.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn {
+  /* display: block; */
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--ff-accent-text-color);
+  border: 3px solid #fff;
+}
